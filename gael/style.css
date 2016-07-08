@@ -1,0 +1,90 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+	width: auto;
+	height: 500px;
+/*	background: url("hive.jpg") no-repeat;*/
+	background-position: cover;
+	font-size: 20px;
+	color: #1e7bc1;
+}
+
+.left {
+	position: relative;
+}
+
+#bouton {
+	height: 200px;
+	width: 400px;
+	background-color: #1e7bc1;
+	border-size: 10px;
+	border-color: #cdcfce;
+	border-radius: 10px;
+	font-size: 20px;
+	color: #1e7bc1;
+	margin-top: 10px;
+	margin-left: 10px;
+	position: absolute;
+	-moz-animation:bounce 0.7s linear infinite;
+}
+
+
+@-moz-keyframes bounce {
+	from{top:106px;}
+	10%{top:99px;}
+	20%{top:93px;}
+	30%{top:89px;}
+	40%{top:87px;}
+	50%{top:86px;}
+	60%{top:87px;}
+	70%{top:89px;}
+	80%{top:93px;}
+	90%{top:99px;}
+	to{top:106px;}
+}
+
+img {
+	height: 190px;
+	width: 390px;
+	margin-top: 2px;
+	margin-left: 2px;
+	border-radius: 20px;
+}
+
+#score {
+	margin-top: 20px;
+	margin-left: 50px;
+	float: left;
+}
+
+#multiplicateur {
+	position: relative;
+	float: right;
+	height: 100px;
+	width: 400px;
+	border-size: 10px;
+	border-color: #1e7bc1;
+	font-size: 15px;
+	color: #1e7bc1; 
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: black;
+}
+
+#autoClicker {
+	float: right;
+	height: 100px;
+	width: 400px;
+	border-size: 10px;
+	border-color: #1e7bc1;
+	font-size: 15px;
+	color: #1e7bc1; 
+	margin-top: 10px;
+	margin-right: 10px;
+	background-color: black;
+}
